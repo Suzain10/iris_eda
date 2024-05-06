@@ -69,3 +69,12 @@ sns.FacetGrid(iris, hue = 'variety') \
     .add_legend()
 plt.show()
 
+print("Means:")
+print(np.mean(iris_setosa['petal.length']))
+print(np.mean(iris_versicolor['petal.length']))
+print(np.mean(iris_virginica['petal.length']))
+
+print("\nStd-dev:")
+print(np.std(iris_setosa['petal.length']))
+print(np.std(iris_versicolor['petal.length']))
+print(np.std(iris_virginica['petal.length']))
